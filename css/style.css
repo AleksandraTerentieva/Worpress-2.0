@@ -79,7 +79,7 @@ h2.title {
     font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
     display: block;
     margin: 0 auto;
     margin-top: 72px;
@@ -97,6 +97,8 @@ h2.title {
     text-align: center;
     cursor: pointer;
     outline: none;
+    border: #fff;
+
 }
 
 .more {
@@ -253,4 +255,97 @@ h2.title {
     font-size: 17px;
     line-height: 20px;
     color: #EFEFEF;
+}
+
+.gift  {
+    min-height: 631px;
+    padding: 85px 0 88px 0;
+    background: #EFEFEF;
+}
+
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_text { 
+    margin-top: 45px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #252525;
+}
+
+.first_web {
+    min-height: 515px;
+    padding: 86px 0 51px 0;
+}
+
+.first_web .first_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.first_web .first_text {
+    margin-top: 36px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.first_web .date {
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.first_web .first_subtitle {
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+footer {
+    min-height: 169px;
+    padding: 57px 0 69px 0;
+    background-color: #1A1A1A;
+}
+
+.info {
+    margin: 0 auto;
+    width: 407px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;;
+    text-align: center;
+    color: #888888;
+}
+
+footer a {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #888888;
+    text-decoration: none;
+}
+
+.underlined {
+    text-decoration: underline;
 }
